@@ -26,6 +26,21 @@ g++ -std=c++17 -Wall -Wextra -o main main_ex1.o Lexer.o Parser.o
 
 ## Usage
 
+To update fuzzing elements run the fuzzer first.
+```bash
+yilmaz@fp-10-126-155-166 debugging_and_fuzzing_lecture % ./fuzzer
+2(simplify (* -508692209 -684637316))
+2(simplify (* -902913870 2138364455))
+0(simplify (+ -1260628803 -2015393194))
+0(simplify (+ 925589080 -367692300))
+0(simplify (+ -300866327 144131259))
+1(simplify (- -719141517 -135503838))
+1(simplify (- -2076349673 1551611738))
+1(simplify (- 819521693 608029044))
+0(simplify (+ -1743655740 1058509005))
+1(simplify (- 757087945 348777956))
+Data successfully written to output.txt!
+```
 After makefile processes you can run the program like as you see below.
 
 ```bash
